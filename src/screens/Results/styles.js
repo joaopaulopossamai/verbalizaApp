@@ -10,6 +10,13 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     textAlign: 'center',
   },
+  input: {
+    fontSize: 15,
+    color: '#000',
+    marginLeft: 10,
+    marginTop: 10,
+    textAlign: 'center',
+  },
   textCard: {
     backgroundColor: '#F4D3FF',
     justifyContent: 'center',
@@ -21,12 +28,13 @@ export const styles = StyleSheet.create({
   },
   containerBaixo: {
     backgroundColor: '#F4D3FF',
-    justifyContent: 'center',
+    justifyContent: 'left',
+    color: '#000',
     height: '70%',
     width: '90%',
     marginTop: 30,
-    alignItems: 'center',
-    borderRadius: 30,
+    alignItems: 'left',
+    borderRadius: 20,
   },
   voltar: {
     marginTop: 20,

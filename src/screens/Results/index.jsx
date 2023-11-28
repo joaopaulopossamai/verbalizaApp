@@ -46,11 +46,11 @@ export default function Results({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.textCard}>
-        <Text style={styles.textinput}>Escreva seu texto aqui</Text>
+        <Text style={styles.textinput}>Escreva seu texto abaixo </Text>
       </View>
 
       <View style={styles.containerBaixo}>
-        <TextInput style={styles.input} placeholder='Digite aqui...' onChangeText={(text) => setInputValue(text)} value={inputValue} />
+        <TextInput style={styles.input} placeholder='Digite aqui...' placeholderTextColor='#000' onChangeText={(text) => setInputValue(text)} value={inputValue} />
       </View>
 
       <TouchableOpacity style={styles.voltar} onPress={() => navigation.goBack()}>
