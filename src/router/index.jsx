@@ -8,19 +8,14 @@ import Results from '../screens/Results';
 
 const Stack = createNativeStackNavigator();
 
-
-
 export default function Router() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
-        <Stack.Screen options={{headerTransparent: true, headerShown: false}} name="Login" component={Login} />
-        <Stack.Screen options={{headerTransparent: true, headerShown: false}} name="Home" component={Home} />
-        <Stack.Screen name="Translator" component={Translator} />
-        <Stack.Screen name="Results" component={Results} />
-
-       
-        
+      <Stack.Navigator initialRouteName='Login'>
+        <Stack.Screen options={{ headerTransparent: true, headerShown: false }} name='Login' component={Login} />
+        <Stack.Screen options={{ headerTransparent: true, headerShown: false }} name='Home' component={Home} />
+        <Stack.Screen options={{ headerTransparent: true, headerShown: false }} name='Translator' component={Translator} />
+        <Stack.Screen options={{ headerTransparent: true, headerShown: false }} name='Results' component={Results} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
       <Text style={styles.apresentacao}>
         Bem vindo ao {'\n'} Verbaliza {'\n'} Aqui você transforma {'\n'} texto em áudio
       </Text>
-      <TouchableOpacity style={styles.buttonHome} onPress={() => navigation.navigate('Translator')}>
+      <TouchableOpacity style={styles.buttonHome} onPress={() => navigation.navigate('Results')}>
         <Text style={styles.textButton}>Proximo</Text>
       </TouchableOpacity>
     </View>

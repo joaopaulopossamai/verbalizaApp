@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FFFBD3',
+    flex: 1,
   },
   textinput: {
     fontSize: 15,
@@ -28,9 +29,9 @@ export const styles = StyleSheet.create({
     borderRadius: 30,
   },
   voltar: {
-    marginTop: 50,
+    marginTop: 20,
     width: '65%',
-    height: 50,
+    height: 40,
     backgroundColor: '#FFE4C4',
     borderRadius: 50,
     alignItems: 'center',
